@@ -9,7 +9,7 @@ document.getElementById('calcBtn').addEventListener('click', async () => {
     if (results && results[0].result !== undefined) {
       resultDiv.innerHTML = results[0].result; // using innerHTML for styled display
     } else {
-      resultDiv.textContent = "No valid time data found.";
+      resultDiv.textContent = "No valid time data found. please try again.";
     }
   });
 });
